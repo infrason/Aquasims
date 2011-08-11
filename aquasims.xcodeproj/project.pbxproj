@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F947A4CA13F4915C00057CF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F947A4C913F4915C00057CF9 /* UIKit.framework */; };
+		F947A4CC13F4915C00057CF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F947A4CB13F4915C00057CF9 /* Foundation.framework */; };
+		F947A4CE13F4915C00057CF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F947A4CD13F4915C00057CF9 /* CoreGraphics.framework */; };
+		F947A4D413F4915C00057CF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F947A4D213F4915C00057CF9 /* InfoPlist.strings */; };
+		F947A4D613F4915C00057CF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F947A4D513F4915C00057CF9 /* main.m */; };
+		F947A4DA13F4915C00057CF9 /* aquasimsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F947A4D913F4915C00057CF9 /* aquasimsAppDelegate.m */; };
+		F947A4DD13F4915C00057CF9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F947A4DB13F4915C00057CF9 /* MainWindow.xib */; };
+		F947A4E013F4915C00057CF9 /* aquasimsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F947A4DF13F4915C00057CF9 /* aquasimsViewController.m */; };
+		F947A4E313F4915C00057CF9 /* aquasimsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F947A4E113F4915C00057CF9 /* aquasimsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F947A4C513F4915C00057CF9 /* aquasims.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aquasims.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F947A4C913F4915C00057CF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F947A4CB13F4915C00057CF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F947A4CD13F4915C00057CF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F947A4D113F4915C00057CF9 /* aquasims-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aquasims-Info.plist"; sourceTree = "<group>"; };
+		F947A4D313F4915C00057CF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F947A4D513F4915C00057CF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F947A4D713F4915C00057CF9 /* aquasims-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aquasims-Prefix.pch"; sourceTree = "<group>"; };
+		F947A4D813F4915C00057CF9 /* aquasimsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aquasimsAppDelegate.h; sourceTree = "<group>"; };
+		F947A4D913F4915C00057CF9 /* aquasimsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aquasimsAppDelegate.m; sourceTree = "<group>"; };
+		F947A4DC13F4915C00057CF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F947A4DE13F4915C00057CF9 /* aquasimsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aquasimsViewController.h; sourceTree = "<group>"; };
+		F947A4DF13F4915C00057CF9 /* aquasimsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aquasimsViewController.m; sourceTree = "<group>"; };
+		F947A4E213F4915C00057CF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/aquasimsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F947A4C213F4915C00057CF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F947A4CA13F4915C00057CF9 /* UIKit.framework in Frameworks */,
+				F947A4CC13F4915C00057CF9 /* Foundation.framework in Frameworks */,
+				F947A4CE13F4915C00057CF9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F947A4BA13F4915C00057CF9 = {
+			isa = PBXGroup;
+			children = (
+				F947A4CF13F4915C00057CF9 /* aquasims */,
+				F947A4C813F4915C00057CF9 /* Frameworks */,
+				F947A4C613F4915C00057CF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F947A4C613F4915C00057CF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F947A4C513F4915C00057CF9 /* aquasims.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F947A4C813F4915C00057CF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F947A4C913F4915C00057CF9 /* UIKit.framework */,
+				F947A4CB13F4915C00057CF9 /* Foundation.framework */,
+				F947A4CD13F4915C00057CF9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F947A4CF13F4915C00057CF9 /* aquasims */ = {
+			isa = PBXGroup;
+			children = (
+				F947A4D813F4915C00057CF9 /* aquasimsAppDelegate.h */,
+				F947A4D913F4915C00057CF9 /* aquasimsAppDelegate.m */,
+				F947A4DB13F4915C00057CF9 /* MainWindow.xib */,
+				F947A4DE13F4915C00057CF9 /* aquasimsViewController.h */,
+				F947A4DF13F4915C00057CF9 /* aquasimsViewController.m */,
+				F947A4E113F4915C00057CF9 /* aquasimsViewController.xib */,
+				F947A4D013F4915C00057CF9 /* Supporting Files */,
+			);
+			path = aquasims;
+			sourceTree = "<group>";
+		};
+		F947A4D013F4915C00057CF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F947A4D113F4915C00057CF9 /* aquasims-Info.plist */,
+				F947A4D213F4915C00057CF9 /* InfoPlist.strings */,
+				F947A4D513F4915C00057CF9 /* main.m */,
+				F947A4D713F4915C00057CF9 /* aquasims-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F947A4C413F4915C00057CF9 /* aquasims */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F947A4E613F4915C00057CF9 /* Build configuration list for PBXNativeTarget "aquasims" */;
+			buildPhases = (
+				F947A4C113F4915C00057CF9 /* Sources */,
+				F947A4C213F4915C00057CF9 /* Frameworks */,
+				F947A4C313F4915C00057CF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aquasims;
+			productName = aquasims;
+			productReference = F947A4C513F4915C00057CF9 /* aquasims.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F947A4BC13F4915C00057CF9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F947A4BF13F4915C00057CF9 /* Build configuration list for PBXProject "aquasims" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F947A4BA13F4915C00057CF9;
+			productRefGroup = F947A4C613F4915C00057CF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F947A4C413F4915C00057CF9 /* aquasims */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F947A4C313F4915C00057CF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F947A4D413F4915C00057CF9 /* InfoPlist.strings in Resources */,
+				F947A4DD13F4915C00057CF9 /* MainWindow.xib in Resources */,
+				F947A4E313F4915C00057CF9 /* aquasimsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F947A4C113F4915C00057CF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F947A4D613F4915C00057CF9 /* main.m in Sources */,
+				F947A4DA13F4915C00057CF9 /* aquasimsAppDelegate.m in Sources */,
+				F947A4E013F4915C00057CF9 /* aquasimsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F947A4D213F4915C00057CF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F947A4D313F4915C00057CF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F947A4DB13F4915C00057CF9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F947A4DC13F4915C00057CF9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F947A4E113F4915C00057CF9 /* aquasimsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F947A4E213F4915C00057CF9 /* en */,
+			);
+			name = aquasimsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F947A4E413F4915C00057CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F947A4E513F4915C00057CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F947A4E713F4915C00057CF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aquasims/aquasims-Prefix.pch";
+				INFOPLIST_FILE = "aquasims/aquasims-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F947A4E813F4915C00057CF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aquasims/aquasims-Prefix.pch";
+				INFOPLIST_FILE = "aquasims/aquasims-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F947A4BF13F4915C00057CF9 /* Build configuration list for PBXProject "aquasims" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F947A4E413F4915C00057CF9 /* Debug */,
+				F947A4E513F4915C00057CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F947A4E613F4915C00057CF9 /* Build configuration list for PBXNativeTarget "aquasims" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F947A4E713F4915C00057CF9 /* Debug */,
+				F947A4E813F4915C00057CF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F947A4BC13F4915C00057CF9 /* Project object */;
+}
